@@ -12,7 +12,7 @@ import streamlit as st
 import seaborn as sns
 from sklearn.metrics import RocCurveDisplay, PrecisionRecallDisplay, roc_curve, auc
 
-path = 'D:/Reformasi Pengalaman/DSW/app/Telco_customer_churn_adapted_v2.xlsx'
+path = '/Telco_customer_churn_adapted_v2.xlsx'
 
 def train():
     data = pd.read_excel(path, index_col='Customer ID')
