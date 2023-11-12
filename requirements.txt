@@ -9,3 +9,4 @@ numpy
 imblearn
 scikit-learn
 seaborn
+openpyxl
