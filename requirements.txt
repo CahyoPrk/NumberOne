@@ -7,5 +7,5 @@ matplotlib
 streamlit
 numpy
 imblearn
-sklearn
+scikit-learn
 seaborn
