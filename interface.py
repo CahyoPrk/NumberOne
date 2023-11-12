@@ -28,7 +28,7 @@ if selected == 'Dashboard':
     st.markdown("Kumpulan data berisi data informasi tentang pelanggan dari sebuah perusahaan telekomunikasi. Data ini mencakup berbagai atribut, termasuk informasi tentang pelanggan, penggunaan layanan, lokasi pelanggan, dan metode pembayaran. :")
     
     # Load your DataFrame (df_train) here, replace with the actual data source
-    df_train = pd.read_excel("D:/Reformasi Pengalaman/DSW/app/Telco_customer_churn_adapted_v2.xlsx")
+    df_train = pd.read_excel("Telco_customer_churn_adapted_v2.xlsx")
     st.write(df_train)
     
     st.title('EDA (Exploratory Data Analysis)')
