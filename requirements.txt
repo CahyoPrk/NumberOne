@@ -1,0 +1,17 @@
+streamlit
+streamlit_option_menu
+pandas
+tensorflow
+joblib
+matplotlib.pyplot
+streamlit
+numpy
+sklearn.preprocessing
+sklearn.model_selection
+imblearn.over_sampling
+sklearn.linear_model
+sklearn.ensemble
+sklearn.neural_network
+sklearn.svm
+seaborn
+train
