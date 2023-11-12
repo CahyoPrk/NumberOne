@@ -36,7 +36,7 @@ def train():
         "Support Vector Machine": SVC(kernel='linear'),
         "Logistic Regression": LogisticRegression(max_iter=1000, random_state=42),
         "Random Forest": RandomForestClassifier(random_state=42),
-        "Gradient Boosting": GradientBoostingClassifier(random_state=42)
+        "Gradient Boosting": GradientBoostingClassifier()
     }
     
     # Training and Evaluating Models
